@@ -30,7 +30,7 @@
   * O S.O. manipula as controladoras, via driver.  
   * ***Software:*** diferentes controladoras e diferentes sistemas operacionais utilizam diferentes drivers.
 
-**![][image1]**
+**![Esquematização de introdução aos Sitemas Operacionais][image1]**
 
 2. **AULA 2 \- TIPOS E ESTRUTURA DE UM SISTEMA OPERACIONAL**  
 * A maneira de agrupar depende do critério utilizado.  
@@ -44,7 +44,7 @@
 * Vários programas compartilham os recursos do sistema.  
 * As tarefas existem em um dos seguintes estados: 
 
-**![][image2]**
+**![](imageData/imagem1.png)**
 
 * Quando dois ou mais processos estão simultaneamente no estado “pronto”, eles “competem” pela utilização da CPU  
 * ***Escalonamento \-*** Quando cabe ao S.O. escolher qual dos dois processos irá utilizar.  
@@ -623,13 +623,3 @@ Endereço virtual: Número do segmento \+ Número da Página \+ Deslocamento
     - Companheiro; De programa executável; De memória; de Setor de inicialização; De driver de dispositivo; de macro; de código-fonte; de BIOS.  
 * **Browser \-** Quando fazemos requisições a algum site, nosso browser envia algumas informações via variáveis de ambiente.  
   * Suas informações podem ser usadas em Phishing
-
-[image1]: 
-
-[image2]:
-
-[image3]:
-
-[image4]:
-
-[image5]:
