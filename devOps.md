@@ -1,56 +1,6 @@
-# 
+# **CURSOS ALURA DEVOPS**
 
-**[CURSOS ALURA DEVOPS	6](#cursos-alura-devops)**
-
-[**1\. O que é esse movimento/cultura DevOps? Entendendo o que é DevOps.	6**](#o-que-é-esse-movimento/cultura-devops?-entendendo-o-que-é-devops.)
-
-[a. Arquitetura de computadores: por trás de como o seu programa funciona	6](#arquitetura-de-computadores:-por-trás-de-como-o-seu-programa-funciona)
-
-[**2\. O que existe no oceano DevOps?	11**](#o-que-existe-no-oceano-devops?)
-
-[a) Shift Left em DevOps \-	11](#shift-left-em-devops--)
-
-[b) Cloud e Infraestrutura \-	12](#cloud-e-infraestrutura--)
-
-[c) Git Flow versus Trunk-based development	13](#git-flow-versus-trunk-based-development)
-
-[d) O que é Infraestrutura como Código (IaC)?	14](#o-que-é-infraestrutura-como-código-\(iac\)?)
-
-[e) O que é DevSecOps?	15](#o-que-é-devsecops?)
-
-[f) O que é Observabilidade?	16](#o-que-é-observabilidade?)
-
-[g) O que são Feature Flags ou Feature Toggles?	17](#o-que-são-feature-flags-ou-feature-toggles?)
-
-[h) O que são containers?	18](#o-que-são-containers?)
-
-[i) O que é Serverless?	19](#heading=h.m2rvitmsan57)
-
-[j) SRE \- Engenharia de Confiabilidade de Sites	19](#sre---engenharia-de-confiabilidade-de-sites)
-
-[**3\. Mergulhe em Terminal e Prompt	20**](#mergulhe-em-terminal-e-prompt)
-
-[a) Windows Prompt: utilizando o CMD	20](#windows-prompt:-utilizando-o-cmd)
-
-[b) Linux OnBoarding I \[Usando a CLI de uma forma rápida e prática\] e II \[Localizando arquivos e conteúdos\]	23](#linux-onboarding-i-[usando-a-cli-de-uma-forma-rápida-e-prática]-e-ii-[localizando-arquivos-e-conteúdos])
-
-[**4\. Chegando na Praia: Shell, Git e Redes	25**](#chegando-na-praia:-shell,-git-e-redes)
-
-[a) Git e GitHub: repositórios, commit e versões	25](#git-e-github:-repositórios,-commit-e-versões)
-
-[b) O que é TCP, UDP e quais as suas diferenças?	27](#o-que-é-tcp,-udp-e-quais-as-suas-diferenças?)
-
-[c) Redes OnBoarding: Uma perspectiva prática	28](#redes-onboarding:-uma-perspectiva-prática)
-
-[5\. Linux II: programas, processos e pacotes	31](#linux-ii:-programas,-processos-e-pacotes)
-
-[Posfácio	32](#posfácio)
-
-[TABELA COM OS PRINCIPAIS COMANDOS LINUX E SUAS EXPLICAÇÕES	32](#tabela-com-os-principais-comandos-linux-e-suas-explicações)
-
-# **CURSOS ALURA DEVOPS** {#cursos-alura-devops}
-
-1. ## **O que é esse movimento/cultura DevOps? Entendendo o que é DevOps.** {#o-que-é-esse-movimento/cultura-devops?-entendendo-o-que-é-devops.}
+1. ## **O que é esse movimento/cultura DevOps? Entendendo o que é DevOps.**
 
 ***Desenvolvimento \+ Operações***
 
@@ -68,7 +18,7 @@
 
 ![][image1]
 
-1. ### **Arquitetura de computadores: por trás de como o seu programa funciona** {#arquitetura-de-computadores:-por-trás-de-como-o-seu-programa-funciona}
+1. ### **Arquitetura de computadores: por trás de como o seu programa funciona**
 
 * **O curso irá explicar \-** Como o computador lê o seu programa  
 * Como o computador executa o seu programa (SSD/HD; RAM; CPU); Multi Core, Dispositivos de I/O e Memória CACHE  
@@ -159,9 +109,9 @@
 - UTF-8 \- não tem um número específico de bytes \[caracteres de tamanho variados\].  
 * O diferente conceito de passar um número e passar uma lista é algo muito importante para a computação. No primeiro (número), está sendo passado o valor como argumento da função, já no segundo (lista), ocorre a passagem de referência como argumento da função.
 
-2. ## **O que existe no oceano DevOps?** {#o-que-existe-no-oceano-devops?}
+2. ## **O que existe no oceano DevOps?**
 
-1) ### **Shift Left em DevOps \-**  {#shift-left-em-devops--}
+1) ### **Shift Left em DevOps \-** 
 
 * O modelo cascata era o mais comum.   
 * A partir dos anos 2000, com a ascensão das “Metodologias Ágeis”, isso mudou, de certa forma, com os *sprints*, gerando um “encaixotamento” das etapas, o que levou a problemas   
@@ -174,7 +124,7 @@
 3. Melhora/agiliza as entregas;   
 4. Planejamento prévio.
 
-2) ### **Cloud e Infraestrutura \-**  {#cloud-e-infraestrutura--}
+2) ### **Cloud e Infraestrutura \-** 
 
 * Uma nuvem pode ser entendida como um conjunto de aplicações, armazenamento e computação que tem a internet como base e plataforma de funcionamento.  
 * Existem várias funções para a Nuvem, sendo algumas delas:   
@@ -188,7 +138,7 @@
 * Historicamente, os setores de operações (infra) e desenvolvimento tiveram uma relação um tanto antagônica, e é nesse cenário que surge a cultura DevOps, que tem por objetivo quebrar possíveis barreiras entre essas duas equipes para proporcionar uma maior colaboração e ao final, entregar um produto ou serviço de qualidade para o cliente, visto que o objetivo é sempre esse.  
 * Associando as ideias e princípios Devops ao Cloud, podemos criar um cenário com maior integração, adotando melhores práticas e ferramentas ao ponto de podermos pensar em uma infraestrutura de TI que automatiza processos de desenvolvimento.
 
-3) ### **Git Flow versus Trunk-based development** {#git-flow-versus-trunk-based-development}
+3) ### **Git Flow versus Trunk-based development**
 
 * **Sistema de controle de versão \-**  
   * ***Git Flow:*** é composto pelos *Branches* (com commits) abaixo
@@ -206,7 +156,7 @@ Master → Features \[de curto prazo\] → Releases
 
 * **Git Flow versus Trunk-based development \-** O desenvolvimento baseado em tronco é uma prática necessária para a Integração Contínua
 
-4) ### **O que é Infraestrutura como Código (IaC)?** {#o-que-é-infraestrutura-como-código-(iac)?}
+4) ### **O que é Infraestrutura como Código (IaC)?**
 
 * Todas as aplicações precisam de um local (ambiente) para serem criadas, armazenadas/testadas e publicadas.  
   * Um ambiente trata-se de um conjunto de elementos, que precisam de manutenção periódica. Logo, é trabalhoso criar um ambiente.  
@@ -216,7 +166,7 @@ Master → Features \[de curto prazo\] → Releases
   * Reduz a quantidade de máquinas que precisam ser utilizadas.  
   * Isso gera uma economia de dinheiro e de espaço.
 
-5) ### **O que é DevSecOps?** {#o-que-é-devsecops?}
+5) ### **O que é DevSecOps?**
 
 * Sec significa segurança.   
   * No fluxo original de DevOps, é necessário adicionar segurança a este fluxo.  
@@ -232,7 +182,7 @@ Master → Features \[de curto prazo\] → Releases
   * Confiabilidade (4).  
 * **Algumas ferramentas CI/CD \-** GitLab CI / GitHubActions; Circle CI; Jenkins; CodePipeline.
 
-6) ### **O que é Observabilidade?** {#o-que-é-observabilidade?}
+6) ### **O que é Observabilidade?**
 
 * O problema inicial é o de monitoramento de aplicações e servidores em sistemas distribuídos.  
 * Atualmente, a estratégia de *Deploy* é de Microservices.   
@@ -245,7 +195,7 @@ Master → Features \[de curto prazo\] → Releases
   * Logs \[configuração de logs, instrumentação no console que a aplicação está rodando, exportação Sidecar/Logging Agent/Shell Script, visualização com Graylog\].  
 * Em sistemas distribuídos, a observabilidade é crucial, e existem muitas ferramentas no mercado (OSS e proprietárias).
 
-7) ### **O que são Feature Flags ou Feature Toggles?** {#o-que-são-feature-flags-ou-feature-toggles?}
+7) ### **O que são Feature Flags ou Feature Toggles?**
 
 * Feature Flag ou em tradução livre, alternância de recursos, é uma técnica que permite, dentre outras coisas:   
   * Que seja possível ativar ou desativar uma funcionalidade em produção em tempo real sem fazer deploy, além de disponibilizar uma funcionalidade para uma parte dos seus clientes para fazer experimentação;   
@@ -255,7 +205,7 @@ Master → Features \[de curto prazo\] → Releases
   * E, por fim, facilita a remoção de funcionalidades que ninguém mais usa no seu sistema.  
 * Antes de implementar as Feature Flags, precisamos definir ***como*** a aplicação vai se comportar quando uma flag for desabilitada.
 
-8) ### **O que são containers?** {#o-que-são-containers?}
+8) ### **O que são containers?**
 
 * Antigamente (Infraestrutura On Premise), cada uma das máquinas (apache, MySQL, mongoDB, etc) precisava de um sistema operacional gerenciando estas; para além disso, era necessário uma forma de fazer estas máquinas se comunicarem.  
   * Complexo e caro.  
@@ -268,15 +218,15 @@ Master → Features \[de curto prazo\] → Releases
 
 ![][image2]
 
-9) ### **SRE \- Engenharia de Confiabilidade de Sites** {#sre---engenharia-de-confiabilidade-de-sites}
+9) ### **SRE \- Engenharia de Confiabilidade de Sites**
 
 * Como você pode assegurar que o seu software é confiável? Por meio da SRE.  
   * Resiliência, escalabilidade e confiabilidade.  
   * O primeiro ponto está na arquitetura do projeto.
 
-3. ## **Mergulhe em Terminal e Prompt** {#mergulhe-em-terminal-e-prompt}
+3. ## **Mergulhe em Terminal e Prompt**
 
-1) ### **Windows Prompt: utilizando o CMD** {#windows-prompt:-utilizando-o-cmd}
+1) ### **Windows Prompt: utilizando o CMD**
 
 * Ferramenta *cmd* para reorganizar pastas e arquivos no computador.  
 * O diretório C: é primeiro ou mais alto diretório em uma hierarquia, o qual chamamos de **diretório raiz.**   
@@ -328,7 +278,7 @@ C:\\Users\\Annac\\OneDrive\\Área de Trabalho\>.\\script.bat
 
 **acvalim@An-n-as:/mnt/c$** sudo apt-get install bpython
 
-2) ### **Linux OnBoarding I \[Usando a CLI de uma forma rápida e prática\] e II \[Localizando arquivos e conteúdos\]** {#linux-onboarding-i-[usando-a-cli-de-uma-forma-rápida-e-prática]-e-ii-[localizando-arquivos-e-conteúdos]}
+2) ### **Linux OnBoarding I \[Usando a CLI de uma forma rápida e prática\] e II \[Localizando arquivos e conteúdos\]**
 
 * Existem mil tipos de distribuição do Linux, e o link a seguir mostra um modelo   versões \- https://distrowatch.com/  
 * **Security Shell (SSH) \-** é um protocolo de rede utilizado para oferecer acesso remoto seguro a um computador ou servidor.   
@@ -362,9 +312,9 @@ C:\\Users\\Annac\\OneDrive\\Área de Trabalho\>.\\script.bat
   * Para trocar algum caracter, sem ser no modo de inserção, o comando é r  
   * :w xxxxx.txt salva o arquivo com outro nome.
 
-4. ## **Chegando na Praia: Shell, Git e Redes** {#chegando-na-praia:-shell,-git-e-redes}
+4. ## **Chegando na Praia: Shell, Git e Redes**
 
-1) ### **Git e GitHub: repositórios, commit e versões** {#git-e-github:-repositórios,-commit-e-versões}
+1) ### **Git e GitHub: repositórios, commit e versões**
 
 * É possível usar um atalho para utilizar o VS code na web, pelo GitHub. Simplesmente é necessário apertar a tecla “.” do computador  
 * O GitHub é um site criado com a intenção de melhorar a experiência dos antigos usuários do Git.  
@@ -393,7 +343,7 @@ C:\\Users\\Annac\\OneDrive\\Área de Trabalho\>.\\script.bat
 | git tag \[nome da tag\] git tag \-a  git push \--tag | Ponteiro apontado para um commit específicoAnnotaded tag, com uma mensagem |
 | git blame \[nome do arquivo\] | Mostra qual foi o commit que alterou determinada linha |
 
-2) ### **O que é TCP, UDP e quais as suas diferenças?** {#o-que-é-tcp,-udp-e-quais-as-suas-diferenças?}
+2) ### **O que é TCP, UDP e quais as suas diferenças?**
 
 * A Internet se baseia, no geral, em requisições e respostas.  
 * Para descrever os passos de uma requisição, existem diversos modelos que descrevem os protocolos (isto é, as regras) por trás desse processo.   
@@ -410,7 +360,7 @@ C:\\Users\\Annac\\OneDrive\\Área de Trabalho\>.\\script.bat
     - O segundo host recebe esse pacote e responde com a confirmação do sincronização (SYNchronize-ACKnowledgment).   
     - O primeiro host, por fim, manda uma confirmação (ACKnowledge) para o segundo, assim estabelecendo a conexão.
 
-3) ### **Redes OnBoarding: Uma perspectiva prática** {#redes-onboarding:-uma-perspectiva-prática}
+3) ### **Redes OnBoarding: Uma perspectiva prática**
 
 * O roteador passa tudo, o firewall não passa “nada”, apenas aquilo que é especificado pelas regras.  
 * **Como descobrir o meu IP \[Internet Protocol\] \-** é possível fazer isso com *ifconfig, ip addr* ou com *ipconfig* (windows)  
@@ -449,7 +399,7 @@ Querying Server ⇒ ***⇐***  Recursive Server ⇒ ***⇐*** Authoritative Serv
 ![][image5]  
 **Imagem 3: Os principais componentes da Rede.**
 
-5. ## **Linux II: programas, processos e pacotes** {#linux-ii:-programas,-processos-e-pacotes}
+5. ## **Linux II: programas, processos e pacotes**
 
 * Um processo é um programa em execução  
 * O comando top serve para listar os processos do Linux.   
@@ -463,9 +413,9 @@ Querying Server ⇒ ***⇐***  Recursive Server ⇒ ***⇐*** Authoritative Serv
   * Em seguida utilize o comando make,para gerar o programa em questão  
   * Por fim, é necessário instalar o programa na máquina com sudo make install
 
-## **Posfácio** {#posfácio}
+## **Posfácio**
 
-### **TABELA COM OS PRINCIPAIS COMANDOS LINUX E SUAS EXPLICAÇÕES** {#tabela-com-os-principais-comandos-linux-e-suas-explicações}
+### **TABELA COM OS PRINCIPAIS COMANDOS LINUX E SUAS EXPLICAÇÕES**
 
 | COMANDOS | EXPLICAÇÃO |
 | ----- | :---- |
