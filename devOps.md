@@ -16,7 +16,7 @@
 * Conhecimentos de rede e de sistemas são importantes.   
 * Escolher uma linguagem de programação e estudá-la a fundo é essencial.
 
-**![][/imageData/devOps/imagem1.png]**
+![][imageData/devOps/imagem1.png]
 
 1. ### **Arquitetura de computadores: por trás de como o seu programa funciona**
 
@@ -216,7 +216,7 @@ Master → Features \[de curto prazo\] → Releases
   * Não é necessário um sistema operacional novo para cada aplicação. É possível compartilhar vários recursos ao mesmo tempo em que deixa tudo isolado.  
   * Vantagens: Mais leve, sem custo de manutenção de vários SOs, mais rápido para provisionar. 
 
-**![][/imageData/devOps/imagem2.png]** 
+![][imageData/devOps/imagem2.png]
 
 9) ### **SRE \- Engenharia de Confiabilidade de Sites**
 
@@ -391,13 +391,13 @@ Querying Server ⇒ ***⇐***  Recursive Server ⇒ ***⇐*** Authoritative Serv
 * **NAT \[Network Address Translation\] \-**   
   * Para monitorarmos uma conexão no nosso host e identificarmos ips de origem, destinos e as respectivas portas, utiliza-se o comando tcpdump 
 
-**![][/imageData/devOps/imagem3.png]**
+![][imageData/devOps/imagem3.png]
 **Imagem 1: Caminhos que a Rede pode percorrer**
 
-**![][/imageData/devOps/imagem4.png]** 
+![][imageData/devOps/imagem4.png] 
 **Imagem 2: Simplificação dos principais caminhos da Rede.**  
 
-**![][/imageData/devOps/imagem5.png]** 
+![][imageData/devOps/imagem5.png]
 **Imagem 3: Os principais componentes da Rede.**
 
 5. ## **Linux II: programas, processos e pacotes**
