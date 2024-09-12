@@ -30,7 +30,7 @@
   * O S.O. manipula as controladoras, via driver.  
   * ***Software:*** diferentes controladoras e diferentes sistemas operacionais utilizam diferentes drivers.
 
-**![Esquematização de introdução aos Sitemas Operacionais](imageData/imagem1.png)**
+**![Esquematização de introdução aos Sitemas Operacionais](imageData/sist_Oper/imagem1.png)**
 
 2. **AULA 2 \- TIPOS E ESTRUTURA DE UM SISTEMA OPERACIONAL**  
 * A maneira de agrupar depende do critério utilizado.  
@@ -44,7 +44,7 @@
 * Vários programas compartilham os recursos do sistema.  
 * As tarefas existem em um dos seguintes estados: 
 
-**![](imageData/imagem2.png)**
+**![](imageData/sist_Oper/imagem2.png)**
 
 * Quando dois ou mais processos estão simultaneamente no estado “pronto”, eles “competem” pela utilização da CPU  
 * ***Escalonamento \-*** Quando cabe ao S.O. escolher qual dos dois processos irá utilizar.  
@@ -77,7 +77,7 @@
   - Tem como princípios modularizações e “Informação Escondida”.
 
 
-![](imageData/imagem3.png)
+![](imageData/sist_Oper/imagem3.png)
 
 2. ***Micro-núcleo:*** Busca tornar o S.O. o menor possível.   
 * Tudo são serviços que rodam em modo usuário.  
@@ -418,7 +418,7 @@
 * **Como fazer uma tabela de páginas mais útil?** Use tamanhos de página que sejam potência de 2\.  
   * Os Bits mais significativos são o número da página.
 
-**![](imageData/imagem4.png)**
+**![](imageData/sist_Oper/imagem4.png)**
 
 * Para mapear os endereços dentro da página, use os bits além do limite da página.  
 * **O endereço virtual é, então, dividido em \-**   
@@ -506,7 +506,6 @@
   * Ao referenciar um endereço de memória:
 
 Endereço virtual: Número do segmento \+ Número da Página \+ Deslocamento  
-![](imageData/imagem5.png)
 
 * **Entrada e Saída \-**   
   * Funções específicas do S.O.:  
